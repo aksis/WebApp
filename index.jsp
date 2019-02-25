@@ -36,7 +36,7 @@
     	<div class="uk-vertical-align uk-text-center uk-height-1-1">
     		<div class="uk-vertical-align-middle" style="width: 50%;">
     			<h1>Hello Friend, I am a Web Application!</h1>
-    			<p><% out.println("Your IP address is: " + request.getRemoteAddr()); %></p>
+    			<p><% out.print("Your IP address is: " + request.getRemoteAddr()); %></p>
     		</div>
     	</div>
     </body>
